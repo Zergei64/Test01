@@ -1,12 +1,9 @@
-require "spec_helper"
-require "test/unit"
+begin
+  require 'rspec/core/rake_task'
 
-Test::Unit.run = true if defined?(Test::Unit) && Test::Unit.respond_to?(:run=)
+  RSpec::Core::RakeTask.new(:spec)
 
-class Test01 < Test::Unit::TestCase
- 
-  def test_simple
-    assert_equal(4, 5 )
-  end
- 
+  task :default => :spec
+rescue LoadError
+  # no rspec available
 end
