@@ -1,3 +1,3 @@
 Gem::Specification.new do |gem|
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.test_files    = ['spec/test_spec.rb']
 end
