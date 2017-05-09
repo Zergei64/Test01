@@ -1,4 +1,5 @@
 require  "spec_helper"
+require 'test/unit'
 
 class Test01 < Test::Unit::TestCase
  
