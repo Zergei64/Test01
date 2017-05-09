@@ -1,9 +1,5 @@
-begin
-  require 'rspec/core/rake_task'
-
-  RSpec::Core::RakeTask.new(:spec)
-
-  task :default => :spec
-rescue LoadError
-  # no rspec available
+RSpec.describe "something" do
+  it "does something" do
+    # pass
+  end
 end
