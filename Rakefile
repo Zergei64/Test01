@@ -7,6 +7,6 @@ RSpec::Core::RakeTask.new
 task :default => :spec
 
 Rake::TestTask.new(:test) do |test|
-  test.test_files = FileList["spec/*.rb"].sort
+  test.test_files = FileList["**/*.rb"].sort
   test.verbose = true
 end
