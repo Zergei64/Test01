@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = "test"
-  gem.version       = DigestEmail::VERSION
+  gem.version       = "1"
   gem.authors       = ["test"]
   gem.description   = %q{test}
   gem.summary       = %q{test}
