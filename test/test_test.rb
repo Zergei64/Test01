@@ -1,5 +1,5 @@
 require_relative "test_app"
-require "testhelper"
+require "test_helper"
 require "test/unit"
  
 class TestSimpleNumber < Test::Unit::TestCase
