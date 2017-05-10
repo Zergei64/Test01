@@ -1,4 +1,4 @@
-require_relative "test_app"
+#require_relative "test_app"
 require "test_helper"
 require "test/unit"
  
