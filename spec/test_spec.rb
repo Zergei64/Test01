@@ -7,3 +7,10 @@ RSpec.describe "something" do
     expect(SimpleNumber.new(2).multiply(3)).to eq 6
   end
 end
+
+RSpec.describe "failme" do
+  it "does a fail" do
+    #expect(5).to eq 5
+    expect(SimpleNumber.new(2).add(2)).to eq 5
+  end
+end
