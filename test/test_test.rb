@@ -10,7 +10,7 @@ class TestSimpleNumber < Test::Unit::TestCase
   end
   
  def test_simple_Error
-    assert_equal(5, SimpleNumber.new(2).add(2) )
+    assert_equal(4, SimpleNumber.new(2).add(2) )
   end
  
 end
