@@ -11,6 +11,6 @@ end
 RSpec.describe "failme" do
   it "does a fail" do
     #expect(5).to eq 5
-    SimpleNumber.nothing()
+    SimpleNumber.new(0).nothing()
   end
 end
