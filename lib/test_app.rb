@@ -12,5 +12,8 @@ class SimpleNumber
   def multiply(y)
     @x * y
   end
-
+  
+  def nothing()
+    nothing()
+  end
 end
