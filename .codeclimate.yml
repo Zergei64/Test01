@@ -2,8 +2,8 @@ engines:
   rubocop:
     enabled: true
     #checks:
-    #	Rubocop/Metrics/ClassLength:
-    #  	enabled: false
+    # Rubocop/Metrics/ClassLength:
+    #   enabled: false
   golint:
     enabled: true
   eslint:
@@ -15,7 +15,7 @@ engines:
     config:
       languages:
       - ruby:
-      	  mass_threshold: 30
+        mass_threshold: 30
       - javascript
 ratings:
   paths:
