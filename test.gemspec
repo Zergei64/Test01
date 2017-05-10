@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-  gem.name          = "test"
+  gem.name          = "test01"
   gem.version       = "1"
   gem.authors       = ["test"]
   gem.description   = %q{Test}
