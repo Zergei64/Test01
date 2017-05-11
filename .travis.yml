@@ -7,9 +7,12 @@ rvm:
 
 env:
   CODECLIMATE_REPO_TOKEN: e356a5055af8e82670bc7be1775a6f12db11a77bfefad1a921347421164e7930
+  CODACY_PROJECT_TOKEN: 6257bc145fca49bba2640d931fca4cc0
 addons:
   code_climate:
     repo_token: e356a5055af8e82670bc7be1775a6f12db11a77bfefad1a921347421164e7930
+  codacy:
+    repo_token: CODACY_PROJECT_TOKEN: 6257bc145fca49bba2640d931fca4cc0
 # regular test configuration
 after_success:
   - bundle exec codeclimate-test-reporter
